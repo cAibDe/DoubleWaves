@@ -13,3 +13,12 @@
 ```
 就是最简单的创建视图的方法就可以了。
 
+#参数
+    CGFloat waveA;//水纹振幅
+    CGFloat waveW ;//水纹周期
+    CGFloat offsetX1; //位移
+    CGFloat currentK; //当前波浪高度Y
+    CGFloat offsetX2; //位移
+    CGFloat wavesSpeed;//水纹速度
+    CGFloat WavesWidth; //水纹宽度
+可以根据自己项目的需求，去调整相应的参数，实现相应的效果。
