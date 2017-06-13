@@ -47,7 +47,7 @@
 }
 - (UIView *)cosView{
     if (!_cosView) {
-        _cosView = [[UIView alloc]initWithFrame:self.frame];
+        _cosView = [[UIView alloc]initWithFrame:self.bounds];
         _cosView.alpha = 0.6;
     }
     return _cosView;
