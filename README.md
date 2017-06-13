@@ -22,3 +22,6 @@
     CGFloat wavesSpeed;//水纹速度
     CGFloat WavesWidth; //水纹宽度
 可以根据自己项目的需求，去调整相应的参数，实现相应的效果。
+
+#更新
+对于懒加载的cosView 有一点小小的bug 但是已经更新
